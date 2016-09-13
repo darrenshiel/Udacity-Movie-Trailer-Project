@@ -22,6 +22,6 @@ To generate the HTML page for this site, take the following steps:
 
 Clone this repository using git.
 
-In Python, run "Entertainment_center.py"
+Using Python, run "Entertainment_center.py"
 
 The script will generate an HTML page that will open in your default browser.
