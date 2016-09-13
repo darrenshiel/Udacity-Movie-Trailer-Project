@@ -6,22 +6,22 @@ This is a server-side code to store a list of my favorite movies, including box 
 
 https://github.com/darrenshiel/Udacity-Movie-Trailer-Project.git
 
-### Download 
+### Files
+
+The following files are used:
+
+* Media.py - This  provides movie related information
+* Entertainment_center.py - Imports both media and Fresh_tomatoes.py 
+* Fresh_tomatoes.py - contains styles and scripting for the page
+* Darrens_movies.html - generated HTML to preview movies and trailers
 
 
-You can also:
-  - Import and save files from GitHub
-  - Export documents as Markdown, HTML and PDF
+### Run Project
 
+To generate the HTML page for this site, take the following steps:
 
+Clone this repository using git.
 
-### Installation
+In Python, run "Entertainment_center.py"
 
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
-
-Download and extract the [latest pre-built release](https://github.com/joemccann/dillinger/releases).
-
-Install the dependencies and devDependencies and start the server.
-
-
-### Quick Start
+The script will generate an HTML page that will open in your default browser.
