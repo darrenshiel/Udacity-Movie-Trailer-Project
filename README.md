@@ -11,7 +11,7 @@ https://github.com/darrenshiel/Udacity-Movie-Trailer-Project.git
 The following files are used:
 
 * Media.py - This  provides movie related information
-* Entertainment_center.py - Imports both media and Fresh_tomatoes.py 
+* Entertainment_center.py - This file is used to generate the project output Darrens_movies.html 
 * Fresh_tomatoes.py - contains styles and scripting for the page
 * Darrens_movies.html - generated HTML to preview movies and trailers
 
