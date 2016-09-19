@@ -1,6 +1,6 @@
 #Calling External Rendering Prog
 import Fresh_tomatoes
-#Calling movie realted information
+#Calling movie related information
 import media
 
 Armageddon = media.Movie("Armageddon",
@@ -8,11 +8,11 @@ Armageddon = media.Movie("Armageddon",
                         "https://www.youtube.com/watch?v=kg_jH47u480")
 
 Batman_Begins = media.Movie("Batman Begins",
-                        "http://vignette4.wikia.nocookie.net/batman/images/1/1e/Batman_Begins_poster6.jpg/revision/latest?cb=20111218145155",
+                        "http://vignette4.wikia.nocookie.net/batman/images/1/1e/Batman_Begins_poster6.jpg/revision/latest?cb=20111218145155" #noqa,
                         "https://www.youtube.com/watch?v=neY2xVmOfUM")
 
 Fight_Club = media.Movie("Fight Club",
-                         "http://ia.media-imdb.com/images/M/MV5BNGM2NjQxZTAtMmU5My00YTk5LWFmOWMtYjZlYzk4YzMwNjFlXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
+                         "http://ia.media-imdb.com/images/M/MV5BNGM2NjQxZTAtMmU5My00YTk5LWFmOWMtYjZlYzk4YzMwNjFlXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg" #noqa,
                          "https://www.youtube.com/watch?v=SUXWAEX2jlg")
 
 Star_Wars = media.Movie("Star Wars: Episode V - The Empire Strikes Back",
@@ -29,10 +29,9 @@ Ron_Burgundy = media.Movie("Anchorman: The Legend of Ron Burgundy",
                         "https://upload.wikimedia.org/wikipedia/en/6/64/Movie_poster_Anchorman_The_Legend_of_Ron_Burgundy.jpg",
                         "https://www.youtube.com/watch?v=1yWhVndYHGg")
 
-
+#Opens webpage to view trailers
 movies = [Armageddon, Batman_Begins, Fight_Club, Star_Wars, Star_Trek, Ron_Burgundy]
 Fresh_tomatoes.open_movies_page(movies)
 
-#print(media.Movie.__doc__)
 
 
