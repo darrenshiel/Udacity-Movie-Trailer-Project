@@ -1,6 +1,6 @@
 #Calling External Rendering Prog
 import Fresh_tomatoes
-
+#Calling movie realted information
 import media
 
 Armageddon = media.Movie("Armageddon",
